@@ -6,24 +6,24 @@
 
 <h1>Create</h1>
 
-<h4>Kids_Collection</h4>
+<h4>Kids Collection</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                <label asp-for="Name" class="control-label">Movie Name</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Director" class="control-label"></label>
+                <label asp-for="Director" class="control-label">Director</label>
                 <input asp-for="Director" class="form-control" />
                 <span asp-validation-for="Director" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Producer" class="control-label"></label>
+                <label asp-for="Producer" class="control-label">Producer</label>
                 <input asp-for="Producer" class="form-control" />
                 <span asp-validation-for="Producer" class="text-danger"></span>
             </div>
